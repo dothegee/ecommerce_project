@@ -1,6 +1,8 @@
 # 목표 : 
 
-# 데이터셋 : https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+# 데이터셋
+
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 # 코멘트 번역
 
