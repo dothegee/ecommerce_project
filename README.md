@@ -12,6 +12,12 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 ## 코멘트 번역
 
 - 번역 모델 : https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt
+- 모델 선정 이유
+    - mBART-large-50 모델은 50개 언어 간의 번역을 지원하여 다언어 환경에서 번역 작업이 필요한 경우 매우 유용함
+    - Hugging Face에서 제공하는 모델을 사용하여 손쉽게 불러오고 조작할 수 있어, 개발 과정에서 효율적으로 활용할 수 있음
+
+## 코멘트 라벨링
+- 라벨링 모델 : Roberta
 - 모델 선정 이유    
     - BERT는 트랜스포머의 인코더를 사용하는 모델로, 텍스트 전체 문맥을 양방향으로 처리하여 의미를 깊이 이해할 수 있음
     - 이러한 이유로 BERT 기반 모델을 채택했으며, BERT의 기본 구조를 유지하면서 학습 방법과 데이터 크기를 확장한 RoBERTa를 선택
