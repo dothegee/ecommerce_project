@@ -114,7 +114,6 @@ python, A/B Test, DataVisualization
 
 
     4. 손익 지점 검증
-
         1. 목표
             - 수익이 0 이상(수익 ≥ 0)인 리워드 조합을 찾는 것을 목표로 합니다.
 
@@ -176,3 +175,8 @@ python, A/B Test, DataVisualization
 
         - 제안
             - 향후 테스트 환경에서는 고객의 신뢰도 분포 및 소비 패턴을 더 정밀히 반영한 데이터로 실험을 반복하여 정확성을 높여야 합니다.
+        ---
+
+        > 참고
+        해 찾기 : https://www.youtube.com/watch?v=DclCR6_jizQ
+        
