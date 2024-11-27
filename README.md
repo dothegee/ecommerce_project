@@ -44,6 +44,13 @@ python, A/B Test, DataVisualization
     박스플롯: 별점에 따른 리뷰 길이 분포.
     파이 차트: 코멘트 작성 여부 비율.
 
+    - 리뷰 작성자들의 비율 : 42.3%
+        ![alt text](image-2.png)
+    - 리뷰 작성자들의 리뷰작성 길이 분포
+        ![alt text](image.png)
+    - 리뷰 점수 별 리뷰 길이 분포
+        ![alt text](image-1.png)
+
 2. data preprocessing
     - 포르투갈어 -> 영어
     - 리뷰 라벨링
