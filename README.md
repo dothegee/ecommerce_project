@@ -22,7 +22,8 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
     - BERT는 트랜스포머의 인코더를 사용하는 모델로, 텍스트 전체 문맥을 양방향으로 처리하여 의미를 깊이 이해할 수 있음
     - 이러한 이유로 BERT 기반 모델을 채택했으며, BERT의 기본 구조를 유지하면서 학습 방법과 데이터 크기를 확장한 RoBERTa를 선택
 
-
+- finetuning model 선택 이유
+    - 전체 f1-score, 개별 f1-score을 비교했을 때 ____ 모델이 적합
 
 # 프로젝트 개요
 
@@ -38,8 +39,10 @@ python, A/B Test, DataVisualization
 
 # 이커머스 데이터 분석
 1. data summary
-
-
+    - 통계량(리뷰 길이, 평균 별점, 코멘트 포함 비율)
+    히스토그램: 리뷰 길이 분포.
+    박스플롯: 별점에 따른 리뷰 길이 분포.
+    파이 차트: 코멘트 작성 여부 비율.
 
 2. data preprocessing
     - 포르투갈어 -> 영어
