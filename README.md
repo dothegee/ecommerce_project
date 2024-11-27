@@ -114,7 +114,9 @@ python, A/B Test, DataVisualization
 
 
     4. 손익 지점 검증
+
     ![alt text](image.png)
+    
         1. 목표
             - 수익이 0 이상(수익 ≥ 0)인 리워드 조합을 찾는 것을 목표로 합니다.
 
